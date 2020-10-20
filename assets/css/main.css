@@ -3,39 +3,6 @@
 
 
 
-
-
-
-
-
-::-webkit-scrollbar {
-	width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: rgba(0,0,0,0);
-}
-
-::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #4C52A4;
-  border: 1px solid #383C79;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #4C52A4;
-}
-
-::-webkit-scrollbar-thumb:active {
-  background: #4C52A4;
-}
-
-
-
-
-
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -3979,3 +3946,30 @@ input, select, textarea {
 			opacity: 1;
 			visibility: visible;
 		}
+
+
+
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0,0,0,0);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #4C52A4;
+  border: 1px solid #383C79;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4C52A4;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #4C52A4;
+}
