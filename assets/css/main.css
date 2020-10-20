@@ -13,7 +13,7 @@
 	float: left;
 	height: 300px;
 	width: 65px;
-	background: #F5F5F5;
+	background: #00D5E4;
 	overflow-y: scroll;
 	margin-bottom: 25px;
 }
@@ -27,13 +27,12 @@
 	margin: auto;
 }
 
-
 ::-webkit-scrollbar {
 	width: 10px;
-	background-color: #F5F5F5;
+	background-color: #00D5E4;
 }
 
-/**  STYLE 1 */
+
 ::-webkit-scrollbar-track {
   border-radius: 10px;
   background: rgba(0,0,0,0.1);
