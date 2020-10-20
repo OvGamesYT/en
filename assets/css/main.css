@@ -3951,25 +3951,32 @@ input, select, textarea {
 
 
 
+* {
+    box-sizing: border-box;
+    scrollbar-color: #fff #000;
+    scrollbar-width: thin;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%
+}
+
 ::-webkit-scrollbar {
-	width: 10px;
+    width: 5px
 }
 
 ::-webkit-scrollbar-track {
-  border-radius: 10px;
-  background: rgba(0,0,0,0);
+    background-color: #000
 }
 
 ::-webkit-scrollbar-thumb {
-  border-radius: 10px;
-  background: #383C79;
-  border: 1px solid #383C79;
+    background-color: #fff
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #3D4284;
+::-webkit-scrollbar-button {
+    display: none
 }
 
-::-webkit-scrollbar-thumb:active {
-  background: #41468C;
+::-webkit-scrollbar-corner {
+    background-color: #000
 }
