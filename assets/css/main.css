@@ -3967,9 +3967,9 @@ input, select, textarea {
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #4C52A4;
+  background: #3D4284;
 }
 
 ::-webkit-scrollbar-thumb:active {
-  background: #4C52A4;
+  background: #41468C;
 }
