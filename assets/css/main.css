@@ -1,8 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -132,6 +130,14 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+			}
+
+		}
+
+		@media screen and (max-width: 500px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
 			}
 
 		}
@@ -1766,16 +1772,11 @@ input, select, textarea {
 	}
 
 	header.major {
-		width: -moz-max-content;
-		width: -webkit-max-content;
-		width: -ms-max-content;
-		width: max-content;
 		margin-bottom: 2em;
 	}
 
 		header.major > :first-child {
 			margin-bottom: 0;
-			width: calc(100% + 0.5em);
 		}
 
 			header.major > :first-child:after {
@@ -1784,24 +1785,17 @@ input, select, textarea {
 				display: block;
 				height: 2px;
 				margin: 0.325em 0 0.5em 0;
-				width: 100%;
 			}
 
-		header.major > p {
-			font-size: 0.7em;
-			font-weight: 600;
-			letter-spacing: 0.25em;
+		header.major > h1 {
+			width: 90%;
+			letter-spacing: 0.1em;
 			margin-bottom: 0;
 			text-transform: uppercase;
+			font-size: 20px;
+			size: 20px;
 		}
 
-		body.is-ie header.major > :first-child:after {
-			max-width: 9em;
-		}
-
-		body.is-ie header.major > h1:after {
-			max-width: 100% !important;
-		}
 
 	@media screen and (max-width: 736px) {
 
