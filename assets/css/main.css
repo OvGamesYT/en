@@ -2985,6 +2985,14 @@ input, select, textarea {
 					width: 65em;
 				}
 
+				.spotlights > section > .content > .inner > h1{
+					margin-bottom: -2px;
+				}
+
+				.spotlights > section > .content > .inner > h1{
+					font-size: 1.5em; 
+					margin-bottom: 11.2px;				}
+
 			.spotlights > section:nth-child(2n) {
 				-moz-flex-direction: row-reverse;
 				-webkit-flex-direction: row-reverse;
