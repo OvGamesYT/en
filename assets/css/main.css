@@ -3985,10 +3985,7 @@ input, select, textarea {
 }
 
 
-
-
 .language {
-	/*background-color: #3E4876;*/
 	overflow: hidden;
 	padding: 10px;
 }
@@ -3998,15 +3995,20 @@ input, select, textarea {
 	text-align: center;
 	padding: 14px 16px;
 	height: 300px;
-	width: 300px; 
+	width: 300px;
+  transition: background-color .2s;
 }
 
 .language a:hover {
-	background-color: #4E5A94;
-	/*color: black;*/
+	background-color: rgba(78,90,148,0.6);
 }
 
 .language a.active {
-	background-color: #3E4876;
-	/*color: white;*/
+	background-color: rgba(62,72,118,0.7);
+  transition: background-color .2s;
+}
+
+.language a.active:hover {
+	background-color: rgba(78,90,148,0.7);
+  
 }
