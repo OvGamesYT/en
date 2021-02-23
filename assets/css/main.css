@@ -3239,6 +3239,7 @@ button:disabled,
     }
 }
 
+
 #header {
     display: -moz-flex;
     display: -webkit-flex;
@@ -3290,6 +3291,7 @@ button:disabled,
 #header .logo:active strong {
     background-color: #53e3fb;
 }
+
 
 #header nav {
     display: -moz-flex;
